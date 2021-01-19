@@ -82,14 +82,13 @@
 *{
     font-family:'Museo Sans Cyrl', sans-serif;
 }
-  .container{
-    max-width: 950px;
-    margin:0 auto;
-  }
+ 
+  @import 'blocks/container.scss';
   @import 'blocks/promo.scss' ;
   @import 'blocks/header.scss';
-  @import 'blocks/_button.scss';
+  @import 'blocks/button.scss';
   @import 'blocks/advantages.scss';
-  @import 'blocks/media.scss';
+  @import 'blocks/consultation.scss';
+  @import 'blocks/forms.scss';
 
 

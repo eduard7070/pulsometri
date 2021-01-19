@@ -1,0 +1,115 @@
+    .button{
+        width: 150px;
+        height: 30px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background-color: #c70101;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 5px;
+        &_main{
+            display: block;
+            margin-top: 60px;
+            padding: 17px 0;
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            color: #ffffff;
+            }
+        &_submit{
+            width: 300px;
+            height: 55px;
+            border-radius: 5px;
+            background-color: #c70101;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+    }
+@media(max-width: 991px){
+    .button{
+        width: 107px;
+        height: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+        &_main{
+            margin-top: 30px;
+            width: 220px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        &_submit{
+            width: 300px;
+            height: 55px;
+            border-radius: 5px;
+            background-color: #c70101;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-left: 226px;
+        }
+    }
+}
+@media(max-width: 767px){
+    .button{
+        width: 107px;
+        height: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+        &_main{
+            margin-top: 30px;
+            width: 220px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        &_submit{
+            width: 300px;
+            height: 55px;
+            border-radius: 5px;
+            background-color: #c70101;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-left: 139px;
+        }
+    }
+}
+@media(max-width: 576px){
+    .button{
+        width: 107px;
+        height: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+        &_main{
+            margin-top: 30px;
+            width: 220px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        &_submit{
+            border-radius: 5px;
+            background-color: #c70101;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-left: 29px;
+            width: 260px;
+            height: 45px;
+        }
+    }
+}
