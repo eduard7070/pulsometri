@@ -1,85 +1,154 @@
-    .carusel{
-        position: relative;
-        padding:81px 0 ;
-        &__inner{
-            width: 750px;
-            margin: 0 auto;
+//     .carusel{ слайвур слик
+//         position: relative;
+//         padding:81px 0 ;
+//         &__inner{
+//             width: 750px;
+//             margin: 0 auto;
            
-        }
-        .slick-prev {
-            position: absolute;
-            border: none;
-            background-color: white;
-            top:50%;
-            transform: translateY(-50%);
-            left:-60px;
-            width: 31px;
-            height: 51px;
-        }
-        .slick-next{
-            position: absolute;
-            border: none;
-            top:50%;
-            transform: translateY(-50%);
-            right:-60px;
-            left: auto;
-            background-color: white;
-            width: 31px;
-            height: 51px;
-        }
-        .slick-dots{
-            display:flex;
-            justify-content: center;
-            text-decoration: none;
+//         }
+//         .slick-prev {
+//             position: absolute;
+//             border: none;
+//             background-color: white;
+//             top:50%;
+//             transform: translateY(-50%);
+//             left:-60px;
+//             width: 31px;
+//             height: 51px;
+//         }
+//         .slick-next{
+//             position: absolute;
+//             border: none;
+//             top:50%;
+//             transform: translateY(-50%);
+//             right:-60px;
+//             left: auto;
+//             background-color: white;
+//             width: 31px;
+//             height: 51px;
+//         }
+//         .slick-dots{
+//             display:flex;
+//             justify-content: center;
+//             text-decoration: none;
            
-        }
-        .slick-dots li{
-            list-style: none;
-            margin:  10px;
-        }
+//         }
+//         .slick-dots li{
+//             list-style: none;
+//             margin:  10px;
+//         }
         
-        .slick-dots li button{
-            font-size: 0;
-            width: 10px;
-            height: 10px;
-            background-color:#da1d3e;
-            border-radius: 50%;
-    }
+//         .slick-dots li button{
+//             font-size: 0;
+//             width: 10px;
+//             height: 10px;
+//             background-color:#da1d3e;
+//             border-radius: 50%;
+//     }
       
-}
-@media(max-width: 767px){
-    .carusel{
-        position: relative;
-        padding:81px 0 ;
-        &__inner{
-            width: 576px;
-            margin: 0 auto;
-        }
+// }
+// @media(max-width: 767px){
+//     .carusel{
+//         position: relative;
+//         padding:81px 0 ;
+//         &__inner{
+//             width: 576px;
+//             margin: 0 auto;
+//         }
   
-        .slick-slide img {
-            display: block;
-            height: 324px;
+//         .slick-slide img {
+//             display: block;
+//             height: 324px;
     
-        }
+//         }
   
-    }
+//     }
               
-}
-@media(max-width: 576px){
-    .carusel{
-        position: relative;
-        padding:81px 0 ;
-        &__inner{
-            width: 210px;
-            margin: 0 auto;
-        }
+// }
+// @media(max-width: 576px){
+//     .carusel{
+//         position: relative;
+//         padding:81px 0 ;
+//         &__inner{
+//             width: 210px;
+//             margin: 0 auto;
+//         }
   
-        .slick-slide img {
-            display: block;
-            height: 160px;
+//         .slick-slide img {
+//             display: block;
+//             height: 160px;
     
-        }
+//         }
   
-    }
+//     }
               
+// }
+    //   слайдер карусель
+    .carusel{
+        height: 800px;
+        position: relative;
+        padding:30px 0 ;
+    }
+    .owl-carousel{
+        position: relative;
+    }
+    .owl-nav{
+        font-size: 0;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        background:url(../img/left.png) center center/cover no-repeat;
+        bottom: 50%;
+        transform: translateY(-50%);
+        left:-60px;
+
+
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        background:url(../img/right.png) center center/cover no-repeat;
+        bottom: 50%;
+        transform: translateY(-50%);
+        left:auto;
+        right: -60px;
+
+    }
+    .owl-carousel .owl-dots{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2px;
+        margin-top: 20px;
+      }
+    .owl-carousel button.owl-dot {
+        width: 15px;
+        height: 15px;
+        background-color:black;
+        margin-left: 20px;
+        border-radius: 50%;
+      }
+    
+      
+    .owl-carousel button.owl-dot.active{
+          background-color:red;
+      }
+@media ( max-width: 1200px){
+    .owl-carousel .owl-stage {
+     width: 80%;  
 }
+}
+@media ( max-width: 991px){
+    .owl-nav{
+        display: none;
+    }
+}
+    
+   
+          
+            
+        
+    
