@@ -31,6 +31,12 @@
             color: #ffffff;
             text-transform: uppercase;
         }
+        &_mini{
+            width: 131px;
+            height: 40px;
+            font-size: 15px;
+           
+          }  
     }
 @media(max-width: 991px){
     .button{
